@@ -1,0 +1,56 @@
+﻿@model EmartMVCCaseStudy.Models.Seller
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>Register</h1>
+
+<h4>Seller</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Register">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="SUname" class="control-label">Username</label>
+                <input asp-for="SUname" class="form-control" />
+                <span asp-validation-for="SUname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SPassword" class="control-label">Password</label>
+                <input asp-for="SPassword" type="password" class="form-control" />
+                <span asp-validation-for="SPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SEmail" class="control-label">Email Id</label>
+                <input asp-for="SEmail" class="form-control" />
+                <span asp-validation-for="SEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SMobileNo" class="control-label">Mobile Number</label>
+                <input asp-for="SMobileNo" class="form-control" />
+                <span asp-validation-for="SMobileNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SCompanyName" class="control-label">Company Name</label>
+                <input asp-for="SCompanyName" class="form-control" />
+                <span asp-validation-for="SCompanyName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Register" class="btn btn-primary" />
+            </div>
+        </form>
+        <div>
+            @ViewBag.message
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Login">Login</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

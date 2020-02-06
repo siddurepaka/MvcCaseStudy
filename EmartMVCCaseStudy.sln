@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmartMVCCaseStudy", "EmartMVCCaseStudy.csproj", "{2983DDA6-B3A2-4680-8BD2-C8D7E79E4178}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2983DDA6-B3A2-4680-8BD2-C8D7E79E4178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2983DDA6-B3A2-4680-8BD2-C8D7E79E4178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2983DDA6-B3A2-4680-8BD2-C8D7E79E4178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2983DDA6-B3A2-4680-8BD2-C8D7E79E4178}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55523334-3B79-45F8-AF40-C767B14CB8D2}
+	EndGlobalSection
+EndGlobal
